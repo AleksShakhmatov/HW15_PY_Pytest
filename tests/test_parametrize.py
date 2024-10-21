@@ -20,3 +20,4 @@ def test_github_mobile(browser_config):
     browser.element('.Button--link').click()
     browser.element('.HeaderMenu-link--sign-up').click()
     browser.element('#email').should(be.visible)
+

@@ -42,3 +42,4 @@ def browser_config(request):
         yield 'mobile'
 
     browser.quit()
+
